@@ -28,10 +28,17 @@ button{
     height: 2.5em;
     width: 2.5em;
     outline: none;
+    cursor: pointer;
 }
 .search-bar{
     border: none;
     outline: none;
-    padding: 0.5em;
-    
+    padding: 0.8em;
+    border-radius:18%;
+    background: #444;
+    color: aliceblue;
+
+}
+button:hover{
+    background: rgb(145, 145, 234);
 }
